@@ -11,13 +11,3 @@
 # get available dlss online
 # download dlss file
 # update
-
-
-Client ID: qawvmyxelcej3t6yvds7gfyicowkf4
-Client secret: wjvchofoyg6ihmb6sjmdmlyrw7txb8
-
-{'headers': 
-    {
-        'Client-ID': 'qawvmyxelcej3t6yvds7gfyicowkf4',
-        'Authorization': 'Bearer u6or2xr8lznc3cjra4l3oqge42twsr'
-    }
