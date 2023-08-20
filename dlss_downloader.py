@@ -9,5 +9,5 @@ def get_dlss_data():
     dlss_dataframe_full = pd.DataFrame.from_dict(dlss_stable)
 
     dlss_dataframe = dlss_dataframe_full[['version', 'additional_label', 'download_url', 'is_signature_valid']]
-    dlss_dataframe = dlss_dataframe.loc[dlss_dataframe['is_signature_valid'] is True]
+    dlss_dataframe = dlss_dataframe.loc[dlss_dataframe['is_signature_valid'] == True]
     return dlss_dataframe.sort_values('version', ascending = False, ignore_index = True)
